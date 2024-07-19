@@ -86,7 +86,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/FawrySystem' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/FawrySystemPhase2' },
 		  // Add more social platforms as needed
 		],
 	  },
