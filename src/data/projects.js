@@ -138,7 +138,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/ClinicReservationSystem' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/Clinic-Reservation-System' },
 		  // Add more social platforms as needed
 		],
 	  },
