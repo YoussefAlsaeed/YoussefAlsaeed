@@ -189,7 +189,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/UnitimeMaintenance' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/Unitime-Maintenance' },
 		  // Add more social platforms as needed
 		],
 	  },
@@ -241,7 +241,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/FoodOrderingPlatform' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/Tools-Project' },
 		  // Add more social platforms as needed
 		],
 	  },
@@ -293,7 +293,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/CheckersAI' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/Checkers-Project' },
 		  // Add more social platforms as needed
 		],
 	  },
@@ -345,7 +345,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/LibraryManagementSystem' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/Library-System' },
 		  // Add more social platforms as needed
 		],
 	  },
@@ -397,7 +397,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/LMSMicroservices' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/EduSystem' },
 		  // Add more social platforms as needed
 		],
 	  },
@@ -449,7 +449,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/E-learningProctor' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/E-learning-Proctor' },
 		  // Add more social platforms as needed
 		],
 	  },
@@ -501,7 +501,7 @@ const projects = [
 		],
 		socialSharingsHeading: 'Share This',
 		socialSharings: [
-		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/OrdersManagementSystem' },
+		  { id: 1, name: 'Github', icon: 'github', url: 'https://github.com/YoussefAlsaeed/Order-management-system' },
 		  // Add more social platforms as needed
 		],
 	  },
