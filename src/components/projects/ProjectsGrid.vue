@@ -23,7 +23,8 @@ export default {
 	computed: {
 		// Get the filtered projects
 		filteredProjects() {
-			let filtered = this.projects;
+			let sortedProjects = this.sortProjectsById(this.projects);
+			let filtered = sortedProjects;
 			if (this.selectedCategory) {
 				filtered = this.filterProjectsByCategory(filtered);
 			} else if (this.searchProject) {
@@ -36,13 +37,16 @@ export default {
 		},
 	},
 	methods: {
+		// Sort projects by ID in ascending order
+		sortProjectsById(projects) {
+			return projects.slice().sort((a, b) => a.id - b.id);
+		},
 		// Filter projects by category
 		filterProjectsByCategory(filtered) {
 			return filtered.filter((item) => {
 				let category =
 					item.category.charAt(0).toUpperCase() +
 					item.category.slice(1);
-				console.log(category);
 				return category.includes(this.selectedCategory);
 			});
 		},
