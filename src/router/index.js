@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
-
+/* eslint-disable */
 const routes = [
 	{
 		path: '/',
@@ -60,6 +60,11 @@ const routes = [
 			title: 'Youssef Alsaeed - Contact',
 		},
 	},
+	{
+		path: '*',
+		name: 'catchAll',
+		component: Home
+	 }
 ];
 
 const router = createRouter({

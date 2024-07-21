@@ -3,7 +3,7 @@ export const socialLinks = [
 		id: 1,
 		name: 'Website',
 		icon: 'globe',
-		url: 'https://YoussefAlsaeed.github.io/',
+		url: 'https://YoussefAlsaeed.github.io/YoussefAlsaeed',
 	},
 	{
 		id: 2,
