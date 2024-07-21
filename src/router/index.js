@@ -59,12 +59,7 @@ const routes = [
 		meta: {
 			title: 'Youssef Alsaeed - Contact',
 		},
-	},
-	{
-		path: '*',
-		name: 'catchAll',
-		component: Home
-	 }
+	}
 ];
 
 const router = createRouter({
