@@ -1,4 +1,3 @@
-
 <script>
 import feather from 'feather-icons';
 /* eslint-disable */
@@ -19,67 +18,29 @@ export default {
 	<div class="block sm:flex gap-0 sm:gap-10 mt-14">
 		<!-- Single project left section details -->
 		<div class="w-full sm:w-1/3 text-left">
-			 <!--
-			<div class="mb-7">
-				<p
-					class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
-				>
-					{{ projectInfo.clientHeading || '' }}
-				</p>
-				<ul class="leading-loose">
-					<li
-						v-for="info in projectInfo.companyInfos"
-						:key="info"
-						class="font-general-regular text-ternary-dark dark:text-ternary-light"
-					>
-						<span>{{ info.title }}: </span>
-						<a
-							href="#"
-							:class="
-								info.title == 'Website' || info.title == 'Phone'
-									? 'hover:underline cursor-pointer'
-									: ''
-							"
-							aria-label="Project Website and Phone"
-						>{{ info.details || '' }}</a>
-					</li>
-				</ul>
-			</div>
-		-->
-
 			<!-- Single project objectives -->
 			<div class="mb-7">
-				<p
-					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
-				>
+				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 					{{ projectInfo.objectivesHeading || '' }}
 				</p>
-				<p
-					class="font-general-regular text-primary-dark dark:text-ternary-light"
-				>
+				<p class="font-general-regular text-primary-dark dark:text-ternary-light">
 					{{ projectInfo.objectivesDetails || '' }}
 				</p>
 			</div>
 
 			<!-- Single project technologies -->
 			<div class="mb-7">
-				<p
-					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
-				>
+				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 					{{ projectInfo.technologies[0]?.title || '' }}
 				</p>
-				<p
-					class="font-general-regular text-primary-dark dark:text-ternary-light"
-				>
+				<p class="font-general-regular text-primary-dark dark:text-ternary-light">
 					{{ projectInfo.technologies[0]?.techs?.join(', ') || '' }}
 				</p>
 			</div>
 
 			<!-- Single project social sharing -->
 			<div>
-				<p
-					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
-				>
+				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 					{{ projectInfo.socialSharingsHeading || '' }}
 				</p>
 				<div class="flex items-center gap-3 mt-5">
@@ -89,20 +50,17 @@ export default {
 						:href="social.url"
 						target="__blank"
 						aria-label="Share Project"
-						class="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
-					><i
-						:data-feather="social.icon"
-						class="w-4 lg:w-5 h-4 lg:h-5"
-					></i></a>
+						class="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-3 rounded-lg shadow-sm duration-500"
+					>
+						<i :data-feather="social.icon" class="w-6 lg:w-8 h-6 lg:h-8"></i>
+					</a>
 				</div>
 			</div>
 		</div>
 
 		<!-- Single project right section details -->
 		<div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
-			<p
-				class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
-			>
+			<p class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
 				{{ projectInfo.projectDetailsHeading || '' }}
 			</p>
 			<p
@@ -115,3 +73,26 @@ export default {
 		</div>
 	</div>
 </template>
+
+<style scoped>
+/* Additional styles to make the social sharing icons larger and more visible */
+.social-icon {
+	width: 2.5rem; /* Increase icon width */
+	height: 2.5rem; /* Increase icon height */
+	padding: 0.75rem; /* Increase padding */
+	background-color: var(--color-ternary-light); /* Light background for better visibility */
+	border-radius: 0.5rem; /* Rounded corners */
+	transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover {
+	background-color: var(--color-primary-dark); /* Change background on hover */
+	transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+
+.social-icon i {
+	width: 100%; /* Ensure icon fills container */
+	height: 100%; /* Ensure icon fills container */
+	color: var(--color-ternary-dark); /* Icon color */
+}
+</style>

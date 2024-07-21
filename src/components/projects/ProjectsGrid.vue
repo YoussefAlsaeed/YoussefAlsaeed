@@ -6,6 +6,12 @@ import projects from '../../data/projects';
 
 export default {
 	components: { ProjectSingle, ProjectsFilter },
+	props: {
+		limit: {
+			type: Number,
+			default: null,
+		},
+	},
 	data: () => {
 		return {
 			projects,
@@ -17,18 +23,22 @@ export default {
 	computed: {
 		// Get the filtered projects
 		filteredProjects() {
+			let filtered = this.projects;
 			if (this.selectedCategory) {
-				return this.filterProjectsByCategory();
+				filtered = this.filterProjectsByCategory(filtered);
 			} else if (this.searchProject) {
-				return this.filterProjectsBySearch();
+				filtered = this.filterProjectsBySearch(filtered);
 			}
-			return this.projects;
+			if (this.limit) {
+				return filtered.slice(0, this.limit);
+			}
+			return filtered;
 		},
 	},
 	methods: {
 		// Filter projects by category
-		filterProjectsByCategory() {
-			return this.projects.filter((item) => {
+		filterProjectsByCategory(filtered) {
+			return filtered.filter((item) => {
 				let category =
 					item.category.charAt(0).toUpperCase() +
 					item.category.slice(1);
@@ -37,9 +47,9 @@ export default {
 			});
 		},
 		// Filter projects by title search
-		filterProjectsBySearch() {
+		filterProjectsBySearch(filtered) {
 			let project = new RegExp(this.searchProject, 'i');
-			return this.projects.filter((el) => el.title.match(project));
+			return filtered.filter((el) => el.title.match(project));
 		},
 	},
 	mounted() {
