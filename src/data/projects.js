@@ -46,7 +46,6 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		],
 	  },
@@ -96,7 +95,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -148,7 +147,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -200,7 +199,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -252,7 +251,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -304,7 +303,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -356,7 +355,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -408,7 +407,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -460,7 +459,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
@@ -512,7 +511,7 @@ const projects = [
 		  {
 			id: 1,
 			title: 'Related Project 1',
-			img: require('@/assets/images/ui-project-1.jpg'),
+			// img: require('@/assets/images/ui-project-1.jpg'),
 		  },
 		  // Add more related projects as needed
 		],
