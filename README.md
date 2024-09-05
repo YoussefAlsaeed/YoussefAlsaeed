@@ -60,3 +60,7 @@
 <br clear="both">
 
 <img src="https://github.com/YoussefAlsaeed/YoussefAlsaeed/blob/output/snake.svg" alt="Snake animation" />
+
+<br>
+
+[![](https://visitcount.itsvg.in/api?id=YoussefAlsaeed&label=Profile%20Views&icon=0&pretty=false)](https://visitcount.itsvg.in)
